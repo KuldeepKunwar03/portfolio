@@ -17,4 +17,4 @@ A modern, responsive portfolio built with <strong>Next.js</strong> and <strong>T
 <code>Vercel</code> (for deployment)<br><br>
 
 ### 🔗 Live Demo<br>
-<a href="http://localhost:3000/">Visit My Portfolio</a> <!-- Replace with actual link when deployed -->
+https://portfolio-black-seven-45.vercel.app/
