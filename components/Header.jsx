@@ -5,7 +5,7 @@ import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+    <div className='w-11/12 max-w-3xl text-center mx-auto min-h-screen pt-24 flex flex-col items-center justify-center gap-4'>
       <motion.div 
       initial={{scale: 0}} 
       whileInView={{scale: 1}}
@@ -27,7 +27,7 @@ const Header = () => {
        whileInView={{y: 0, opacity: 1}}
        transition={{duration: 0.8, delay: 0.5}}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            Frontend Developer & UI/UX Designer
+            FullStack Developer & UI/UX Designer
         </motion.h1>
 
         <motion.p 
@@ -35,7 +35,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            I'm a Frontend Developer with UI/UX design expertise, creating responsive and user-friendly web experiences that blend clean code with intuitive design. I focus on building seamless digital products that are both functional and visually engaging
+            I’m a Full Stack Developer with UI/UX design expertise passionate about creating seamless digital products that connect design with functionality. I focus on building responsive, user‑friendly experiences that balance creativity with precision, ensuring every solution delivers meaningful value to users.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

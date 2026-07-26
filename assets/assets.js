@@ -36,9 +36,11 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import focus_guard from './public/FocusGuard.png';
 
 export const assets = {
     user_image,
+    focus_guard,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -80,16 +82,16 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Leet Matrics',
+        title: 'Employee Management System',
         description: 'Frontend Project',
         bgImage: '/Leet_matrics.png',
-        link: 'https://github.com/KuldeepKunwar03/LeetMetrics',
+        link: 'https://github.com/KuldeepKunwar03/Employee-Management-System',
     },  
     {
-        title: 'We_CHAT',
-        description: 'Online Chat Application',
-        bgImage: '/WeChat.png',
-        link: 'https://github.com/KuldeepKunwar03/Online-Chat_Application-NodeJS-SocketIO',
+        title: 'Focus_Guard',
+        description: 'Productivity Tool (Browser Extension)',
+        bgImage: focus_guard.src,
+        link: 'https://github.com/KuldeepKunwar03/Focus-Extension',
     },
 
     {
@@ -108,9 +110,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Next Js, Tailwind CSS, Figma' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 3 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, Tailwind CSS, Node Js, Express, Mongo DB, Figma' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E. in Computer Science and Engineering' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [

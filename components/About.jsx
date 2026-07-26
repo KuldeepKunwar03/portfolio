@@ -22,7 +22,7 @@ const About = ({isDarkMode}) => {
 
         <div className='flex-1'>
             <p className='mb-10 max-w-2xl font-Ovo'>
-              I am a dedicated Frontend Developer with expertise in UI/UX design, committed to building responsive, accessible, and visually engaging digital experiences. Beyond development, I am a strong problem solver who continually sharpens analytical and logical thinking by practicing daily on platforms like LeetCode and GeeksforGeeks. By combining design creativity with technical precision, I strive to craft solutions that not only perform seamlessly but also deliver meaningful value to users.
+              I am a dedicated Full Stack Developer with expertise in building scalable applications across frontend and backend. Skilled in JavaScript, TypeScript, Angular, Modern C++, and MySQL, I design responsive interfaces while architecting efficient APIs and databases. Beyond development, I sharpen my problem‑solving and analytical skills daily on platforms like LeetCode and GeeksforGeeks. By combining technical precision with design thinking, I deliver solutions that are robust, user‑centric, and impactful.
             </p>
 
             <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full'>
@@ -42,12 +42,13 @@ const About = ({isDarkMode}) => {
               ))}
             </ul>
 
-            <h4 className='my-6 text-gray-800 dark:text-white'>Tools I use</h4>
+            <h4 className={`my-6 ${isDarkMode ? "text-white" : "text-black"}`}> Tools I use </h4>
+
 
             <ul className='flex flex-wrap items-center gap-3 sm:gap-5'>
               {toolsData.map((tool,index) => (
                 <li key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-200 dark:border-white/10 rounded-lg cursor-pointer transition duration-300 hover:-translate-y-1 hover:shadow-md bg-white/60 backdrop-blur-sm dark:bg-gray-900/40'>
-                  <Image src={tool} alt='Tool' className='w-5 sm:w-7'/>
+                  <Image src={tool} alt='Tool' className={`w-5 sm:w-7 ${isDarkMode ? 'invert' : ''}`}/>
                 </li>
               ) )}
             </ul>

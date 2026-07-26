@@ -31,7 +31,7 @@ const Footer = ({ isDarkMode }) => {
               initial={{opacity: 0, y: 5}}
               whileInView={{opacity: 1, y: 0}}
               transition={{duration: 0.4, delay: 0.1}}
-            >© 2025 Kuldeep Singh Kunwar. All rights reserved.</motion.p>
+            >© 2026 Kuldeep Singh Kunwar. All rights reserved.</motion.p>
 
             <motion.ul className='flex items-center justify-center gap-10 mt-4 sm:mt-0'
               initial={{opacity: 0, y: 6}}
