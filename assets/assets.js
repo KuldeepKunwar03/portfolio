@@ -37,6 +37,7 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import focus_guard from './public/FocusGuard.png';
+import nimbus_ai from './public/nimbus_ai.png';
 
 export const assets = {
     user_image,
@@ -77,15 +78,16 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    nimbus_ai
 };
 
 export const workData = [
     {
-        title: 'Employee Management System',
-        description: 'Frontend Project',
-        bgImage: '/Leet_matrics.png',
-        link: 'https://github.com/KuldeepKunwar03/Employee-Management-System',
+        title: 'Nimbus.ai',
+        description: 'Full Stack Web Application',
+        bgImage: nimbus_ai.src,
+        link: 'https://nimbus-ai-henna.vercel.app/',
     },  
     {
         title: 'Focus_Guard',
