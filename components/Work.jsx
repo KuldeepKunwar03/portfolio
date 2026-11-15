@@ -26,7 +26,7 @@ const Work = ({ isDarkMode }) => {
         whileInView={{opacity:1}}
         transition={{duration: 0.6, delay: 0.3}}
       >
-             Showcasing projects that highlight my skills in web development and UI/UX design, built with modern tools and a focus on clean, user-friendly experiences.
+             Explore a collection of projects showcasing my expertise in full-stack development and AI engineering, combining modern technologies, intelligent solutions, and thoughtful design to build scalable applications that solve real-world problems.
         </motion.p>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-10 gap-5 dark:text-black'>

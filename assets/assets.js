@@ -85,22 +85,22 @@ export const assets = {
 export const workData = [
     {
         title: 'Nimbus.ai',
-        description: 'Full Stack Web Application',
+        description: 'Full-stack AI platform offering AI-powered content generation, image creation, resume analysis, and background removal.',
         bgImage: nimbus_ai.src,
         link: 'https://nimbus-ai-henna.vercel.app/',
     },  
     {
         title: 'Focus_Guard',
-        description: 'Productivity Tool (Browser Extension)',
+        description: 'Browser extension that boosts productivity by blocking distracting websites and removing YouTube recommendations.',
         bgImage: focus_guard.src,
         link: 'https://github.com/KuldeepKunwar03/Focus-Extension',
     },
 
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Interview_IQ',
+        description: 'AI-powered platform for personalized interview preparation through resume and job description analysis.',
         bgImage: '/UIUX.png',
-        link: 'https://github.com/KuldeepKunwar03/FIGMA-Projects',
+        link: 'https://github.com/KuldeepKunwar03/Interview_IQ',
     },
 ]
 
@@ -112,7 +112,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Next Js, Tailwind CSS, Node Js, Express, Mongo DB, Figma' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'React.js, Next.js, Node.js, Python, TypeScript, LangChain, LangGraph, RAG, LLMs, Vector Databases, PostgreSQL, MongoDB' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.E. in Computer Science and Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

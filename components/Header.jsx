@@ -27,7 +27,7 @@ const Header = () => {
        whileInView={{y: 0, opacity: 1}}
        transition={{duration: 0.8, delay: 0.5}}
         className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-            FullStack Developer & UI/UX Designer
+            Full Stack AI Engineer
         </motion.h1>
 
         <motion.p 
@@ -35,7 +35,7 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-            I’m a Full Stack Developer with UI/UX design expertise passionate about creating seamless digital products that connect design with functionality. I focus on building responsive, user‑friendly experiences that balance creativity with precision, ensuring every solution delivers meaningful value to users.
+            I'm a Full Stack AI Engineer driven by the passion to transform innovative ideas into intelligent, scalable, and impactful digital experiences. I combine modern web technologies with the power of Generative AI to build seamless applications that go beyond functionality, delivering smart solutions to real-world challenges. From crafting intuitive interfaces and robust backend architectures to developing AI-powered applications and intelligent agents, I focus on engineering products where technology meets innovation.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -52,7 +52,7 @@ const Header = () => {
             initial={{y: -20, opacity: 0}} 
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
-            href="/Kuldeep_Resume_SDE.pdf" download
+            href="/Kuldeep_Resume.pdf" download
             className='px-10 py-3 border rounded-full border-grey-500 flex items-center gap-2  bg-white dark:text-black' 
             >My Resume <Image src={assets.download_icon} alt='' className='w-4' /></motion.a>
         </div>
